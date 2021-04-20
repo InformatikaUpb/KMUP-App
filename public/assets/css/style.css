@@ -129,6 +129,7 @@ img {
 
 .card-info {
   color: white;
+
   padding: 5px;
   font-weight: bolder;
   background-color: rgb(218, 52, 52);
@@ -447,6 +448,7 @@ input:focus {
   font-weight: 500;
   text-transform: capitalize;
   border-radius: 2px;
+  align-items: center;
 
 }
 

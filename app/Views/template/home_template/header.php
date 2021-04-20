@@ -40,7 +40,7 @@
               </form>
             </div>
             <!-- Login -->
-            <a href="login.html" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
+            <a href="<?= base_url('auth/login/'); ?>" class="login-btn"><i class="fa fa-user" aria-hidden="true"></i></a>
             <a class="btn-theme"><i class="fa fa-cog" aria-hidden="true"></i></a>
           </div>
         </div>
