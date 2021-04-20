@@ -1,6 +1,7 @@
 <?= $this->extend('template/home_template/main'); ?>
 <?= $this->section('isi'); ?>
-
+<?= $this->include('template/home_template/preloader'); ?>
+<?= $this->include('template/home_template/header'); ?>
 <!-- INFO UNIVERSITAS -->
 <div class="container-fluid mt-5">
   <div class="card">
@@ -461,6 +462,17 @@
     </div>
   </div>
 </section>
-<!-- ##### Psot Area End ##### -->
+<!-- ABSOLUTE BUTTON SOSMED -->
+<div class="btn-info-absolute">
+  <p>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-pinterest"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-youtube-play"></i></a>
+  </p>
+</div>
+<!--end ABSOLUTE BUTTON SOSMED -->
+<?= $this->include('template/home_template/footer'); ?>
 
 <?= $this->endSection(); ?>
